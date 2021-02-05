@@ -1,0 +1,369 @@
+/*
+    * Project Name:
+    * Project Author:
+    * Project Starting Date:
+    * All Section :
+        1. Header
+        2. Collection
+        3. Product
+        4. Banner
+        5. News
+        6. Gallery
+        7. Footer
+/*======> Basic css start <=======*/
+/*======> google fonts start <=======*/
+.menu-bars{
+    display: none;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*======> google fonts end <=======*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0pc;
+    list-style: none;
+}
+h1,h2,h3,h4.h5,h6{
+    margin: 0;
+}
+/*======> Basic css end <=======*/
+/*======> Common css start <=======*/
+.container{
+    padding: 0px 200px;
+}
+/*======> Common css end <=======*/
+/*=======> Header-start <====*/
+.header-top {
+    width: 100%;
+    background: #282828;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.header-top-left h1 {
+    margin-left: 50px;
+    padding: 11px;
+    font-family: monospace;
+}
+.header-top-left p{
+    font-size: 15px;
+    color: red;
+}
+.header-top-mid-nav ul{
+    display:flex;
+    justify-content: space-between;
+}
+.header-top-mid-nav ul li {
+    padding: 20px;
+}
+.header-top-mid-nav ul li a {
+    color: #fff;
+}
+.header-top-mid-nav ul li a:hover {
+    color: #FF9800;
+}
+.header-top-right{
+    margin-right: 50px;
+}
+.header-top-right-icon{
+    padding: 20px;
+}
+.header-top-right-icon a {
+    padding: 15px;
+    color: #fff;
+}
+.header-top-right-icon span {
+    padding: 1px 5px;
+    background: #EC2525;
+    position: absolute;
+    margin: 10px 0px 0px -5px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+.header-menu{
+    width: 100%;
+    min-height: 500px;
+    float: left;
+    background-image: url(../img/Armani_Caffe_Dubai.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-menu::after {
+    width: 100%;
+    min-height: 500px;
+    content: "";
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+}
+.header-menu-text {
+    color: #fff;
+    z-index: 999;
+    width: 45%;
+    padding: 140px 0px 0;
+    position: relative;
+}
+.header-menu-text h4{
+    margin: 0px;
+}
+.header-menu-text h1 {
+    font-size: 55px;
+}
+.but {
+    padding: 30px 0px;
+}
+.but a{
+    padding: 12px 30px;
+    background: #f1593b;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    border-radius: 0px 50px 0px 50px;
+}
+/*=======> Header-end <====*/
+/*=======> Collection-start <====*/
+.collection-menu{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.collection-menu-item {
+    padding: 10px;
+    background: #f1f0ea;
+}
+.collection-menu-item img{
+    width: 100%;
+}
+.collection-menu-item span {
+    float: right;
+    padding: 8px 20px;
+    background: #f1593b;
+    font-size: 13px;
+    color: #fff;
+    margin-top: -36px;
+    position: relative;
+    border-radius: 0px 50px 0px 50px;
+}
+/*=======> Collection-end <====*/
+/*=======> Product-menu-start <====*/
+.produce-menu-top {
+    text-align: center;
+    color: #333333;
+    padding: 20px;
+}
+.product-menu-all-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.product-menu-item {
+    padding: 10px;
+    text-align: center;
+    color: #5d5d5d;
+    position: relative;
+    background: #f1f0ea;
+}
+.product-menu-item .toptext {
+    position: absolute;
+    padding: 2px 20px;
+    background: #f24421;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 0px 50px 0px 50px;
+    margin-top: 10px;
+}
+.product-menu-item .toptext3 {
+    position: absolute;
+    padding: 2px 20px;
+    background: #40b322;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 0px 50px 0px 50px;
+    margin-top: 10px;
+}
+.product-menu-item .toptext4 {
+    position: absolute;
+    padding: 2px 20px;
+    background: #40b322;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0px 50px 0px 50px;
+    margin-top: 45px;
+}
+.product-menu-item img{
+    width: 100%;
+}
+.product-menu-item-view {
+    text-align: center;
+    padding: 50px 0px;
+}
+.product-menu-item-view a {
+    padding: 16px 50px;
+    background: #f1593b;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+}
+/*=======> Product-menu-end <====*/
+/*=======> Banner-start <====*/
+.benner-menu{
+    background: #e5e5e5;
+}
+.product-menu-item{
+    width: 100%;
+}
+.responsive-menu-icon{}
+.banner-menu-item {
+    /*width: 25%;*/
+    padding: 30px 0px;
+}
+.banner-menu-item-product {
+    background: #fff;
+    text-align: center;
+    padding: 40px;
+}
+.banner-menu-item h1{
+    font-size: 71px;
+}
+.banner-menu-item-btn{
+    padding: 30px 0px 0px;
+}
+.banner-menu-item-btn a {
+    padding: 11px 30px;
+    background: #f1593b;
+    color: #fff;
+    border-radius: 0px 50px 0px 50px;
+}
+/*=======> Banner-end <====*/
+/*=======> News-start <====*/
+.news-menu-top{
+    padding: 50px 0px;
+    text-align: center;
+}
+.news-menu-top h1{
+    color: #333333;
+}
+.news-menu-product-all {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 50px;
+}
+.news-menu-product{
+    padding: 10px;
+}
+.news-menu-product img{
+    width:100%;
+}
+.news-menu-product pre{
+    color: #f1593b;
+}
+.news-menu-product h2{
+    color: #333333;
+}
+.news-menu-product p{
+    color: #b7b7b7;
+}
+.news-form{
+    background: #fafafa;
+    text-align: center;
+}
+.news-form-menu{
+    padding: 50px 0px;
+}
+.news-form-menu p{
+    color: #333333;
+}
+.news-form-menu input {
+    width: 30%;
+    padding: 9px 0px;
+    margin: -4px;
+}
+.news-form-menu button {
+    padding: 11px 10px 11px 10px;
+    background: #f24421;
+    color: #fff;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+/*=======> News-end <====*/
+/*=======> Gallery-start <====*/
+.gallery-menu{
+    width: 100%;
+    min-height: 100px;
+    background:#e5e5e5;
+}
+/*=======> Gallery-end <====*/
+/*=======> Footer-end <====*/
+.footer-menu {
+    display: flex;
+    justify-content:space-between;
+    padding: 40px 0px;
+}
+.footer-menu-product {
+    width: 50%;
+    padding: 0px 20px;
+}
+.footer-menu-product h1{
+    font-size: 40px;
+    color: #333333;
+}
+.footer-menu-product p {
+    color: #333333;
+    font-size: 14px;
+}
+.footer-menu-product-icon {
+    padding: 30px 0px 0px;
+}
+.footer-menu-product-icon .fb {
+    border-radius: 50%;
+    background: #3b5999;
+    padding: 10px 14px;
+    color: #fff;
+}
+.footer-menu-product-icon .gool {
+    border-radius: 50%;
+    background: #dd4b39;
+    padding: 10px 9px;
+    color: #fff;
+}
+.footer-menu-product-icon .twi {
+    border-radius: 50%;
+    background: #55acee;
+    padding: 10px 11px;
+    color: #fff;
+}
+.footer-menu-product-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu-product-nav, nav ul li{
+    padding: 3px 0px;
+}
+.footer-menu-product-nav, nav ul li a{
+    color: #333333;
+}
+.footer-menu-product-nav, nav ul li a:hover{
+    color: #FF9800;
+}
+.footer-menu-product a {
+    padding: 0px 15px 0px 0px;
+    color: #000;
+}
+.copy{
+    text-align: center;
+}
+.copy p{
+    color: #333333;
+}
+/*=======> Footer-end <====*/
